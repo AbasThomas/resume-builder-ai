@@ -1,0 +1,17 @@
+/* GrammarChecker.css */
+.grammar-checker button {
+    background: var(--accent-color);
+    color: #fff;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  .grammar-checker ul {
+    list-style: disc inside;
+    font-size: 0.85rem;
+    color: var(--subtext-color);
+  }
+  

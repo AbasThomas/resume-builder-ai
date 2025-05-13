@@ -1,0 +1,237 @@
+/* Reset & Base */
+.home {
+    font-family: 'Roboto', sans-serif;
+    color: #2c3e50;
+    line-height: 1.6;
+  }
+  
+  /* 1. Hero Advanced */
+  .hero-advanced {
+    display: flex;
+    align-items: center;
+    padding: 4rem 2rem;
+    background: #f4faff;
+    gap: 2rem;
+  }
+  .hero-content {
+    flex: 1;
+  }
+  .hero-content h1 {
+    font-size: 2.75rem;
+    margin-bottom: 1rem;
+  }
+  .hero-content p {
+    font-size: 1.15rem;
+    margin-bottom: 2rem;
+  }
+  .hero-content button {
+    padding: 0.9rem 2rem;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .hero-content button:hover {
+    background: #2980b9;
+  }
+  .hero-image img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  }
+  
+  /* 2. Template Showcase */
+  .template-showcase {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: white;
+  }
+  .template-showcase h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  .templates {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .template-card {
+    width: 200px;
+    border: 2px solid;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform .2s;
+  }
+  .template-card:hover {
+    transform: translateY(-6px);
+  }
+  .template-preview {
+    height: 140px;
+  }
+  .template-card h3 {
+    margin: 0.75rem 0 0.25rem;
+  }
+  .template-card p {
+    margin: 0 0 1rem;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* 3. Features */
+  .features-advanced {
+    padding: 3rem 2rem;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  .features-advanced h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  .features-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .feature-card {
+    width: 220px;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    transition: box-shadow .2s;
+  }
+  .feature-card:hover {
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  }
+  .feature-icon {
+    font-size: 2rem;
+    color: #3498db;
+    margin-bottom: 0.75rem;
+  }
+  
+  /* 4. Testimonials */
+  .testimonials {
+    padding: 3rem 2rem;
+    background: white;
+    text-align: center;
+  }
+  .testimonials h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  .testimonial-card {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #f4faff;
+    border-radius: 8px;
+  }
+  .quote-icon {
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    font-size: 2rem;
+    color: #3498db;
+  }
+  
+  /* 5. Pricing Teaser */
+  .pricing-teaser {
+    padding: 3rem 2rem;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  .pricing-teaser h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  .pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .pricing-card {
+    width: 220px;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  }
+  .pricing-card.premium {
+    border: 2px solid #3498db;
+  }
+  .pricing-card h3 {
+    margin-bottom: 0.5rem;
+  }
+  .pricing-card p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  .pricing-card ul li {
+    margin-bottom: 0.5rem;
+  }
+  .pricing-card button {
+    padding: 0.6rem 1.5rem;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .pricing-card button:hover {
+    background: #2980b9;
+  }
+  
+  /* 6. FAQ Preview */
+  .faq-preview {
+    padding: 3rem 2rem;
+    background: white;
+  }
+  .faq-preview h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  .faq-list {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .faq-item + .faq-item {
+    margin-top: 1.5rem;
+  }
+  
+  /* 7. Sticky CTA */
+  .sticky-cta {
+    position: sticky;
+    bottom: 0;
+    background: #3498db;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sticky-cta p {
+    margin: 0;
+  }
+  .sticky-cta button {
+    padding: 0.6rem 1.5rem;
+    background: white;
+    color: #3498db;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  

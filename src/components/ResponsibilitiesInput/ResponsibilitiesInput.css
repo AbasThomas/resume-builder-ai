@@ -1,0 +1,27 @@
+/* ResponsibilitiesInput.css */
+.resp-input textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--input-border);
+    border-radius: 6px;
+    box-shadow: 0 1px 3px var(--shadow-light);
+    margin-bottom: 0.5rem;
+  }
+  .keyword-btn {
+    margin: 0 0.3rem 0.3rem 0;
+    background: var(--accent-color);
+    color: #fff;
+    border: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  .keyword-btn:hover {
+    opacity: 0.9;
+  }
+  .tip {
+    font-size: 0.85rem;
+    color: var(--subtext-color);
+  }
+  
